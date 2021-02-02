@@ -1,4 +1,3 @@
-/* eslint-disable react/destructuring-assignment */
 import React, { Component } from 'react';
 import { Keyboard, ActivityIndicator, AsyncStorage } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
@@ -20,10 +19,6 @@ import {
 } from './styles';
 
 export default class Main extends Component {
-  static navigationOptions = {
-    title: 'Usuários',
-  };
-
   constructor() {
     super();
     this.state = {
